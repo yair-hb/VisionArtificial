@@ -1,3 +1,4 @@
+#este es el codigo para el detector de movimiento
 import cv2;
 import numpy as np
 
