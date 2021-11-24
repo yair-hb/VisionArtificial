@@ -3,6 +3,8 @@ import cv2;
 import numpy as np
 
 video = cv2.VideoCapture(0)
+#se inicializa una variable para hacer un conteo
+i = 0
 
 while True:
 	ret, frame = video.read()
