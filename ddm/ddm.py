@@ -2,7 +2,6 @@
 #en este codigo se deben checar las librerias ya que marca un error
 #ya comprobamos que se actualizo en github
 #comentario de prueba 
-import time
 import cv2
 import numpy as np
 
