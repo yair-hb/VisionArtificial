@@ -2,6 +2,7 @@
 #en este codigo se deben checar las librerias ya que marca un error
 #ya comprobamos que se actualizo en github
 #comentario de prueba 
+import time
 import cv2
 import numpy as np
 
@@ -10,7 +11,7 @@ i = 0
 while True:
 	ret, frame = video.read()
 	if ret == False: break
-	gray = cv2.cvtcolor(frame, cv2.COLOR_BGR2GRAY)
+	gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 	if i == 20:
 		bgGray = gray
 	if i > 20:
